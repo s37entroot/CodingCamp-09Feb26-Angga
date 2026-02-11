@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Latihan Angga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/images/RevoU.png" height="100px"
+                alt="Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Our Profile</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Message Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 id="welcome-text">Hi Angga, Welcome To Website</h1>
+            <p>Ini adalah website latihan pertama.</p>
+            <div class="banner-placeholder">
+                1366x578
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="headquarter">
+            <h2>Our Headquarter</h2>
+            <div class="location-container">
+                <div class="location">
+                    <div class="circle"></div>
+                    <p>Jakarta</p>
+                </div>
+                <div class="location">
+                    <div class="circle"></div>
+                    <p>Bandung</p>
+                </div>
+                <div class="location">
+                    <div class="circle"></div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="message-us">
+            <h2>Message Us</h2>
+            <div class="flex-container">
+                <form id="message-form">
+                    <div class="form-group">
+                        <label>Nama :</label>
+                        <input type="text" id="input-nama" placeholder="Nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Lahir :</label>
+                        <input type="date" id="input-tgl" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Jenis Kelamin :</label>
+                        <input type="radio" name="gender" value="Laki-Laki" checked> Laki-Laki
+                        <input type="radio" name="gender" value="Perempuan"> Perempuan
+                    </div>
+                    <div class="form-group">
+                        <label>Pesan :</label>
+                        <textarea id="input-pesan" placeholder="Pesan" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div class="result-box" id="result-box">
+                    <p><strong>Current time :</strong> <span id="current-time">-</span></p>
+                    <br>
+                    <p><strong>Nama :</strong> <span id="res-nama">-</span></p>
+                    <p><strong>Tanggal Lahir :</strong> <span id="res-tgl">-</span></p>
+                    <p><strong>Jenis Kelamin :</strong> <span id="res-gender">-</span></p>
+                    <p><strong>Pesan :</strong> <span id="res-pesan">-</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created By RevoU</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
