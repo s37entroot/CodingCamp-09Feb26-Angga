@@ -1,4 +1,4 @@
-// File wajib sesuai struktur [cite: 22, 25]
+// File wajib sesuai struktur code [cite: 22, 25]
 let todos = [];
 
 const todoInput = document.getElementById('todo-input');
